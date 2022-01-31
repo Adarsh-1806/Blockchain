@@ -111,10 +111,9 @@ function hasing(m, l) {
 }
 function gethash(data){
     s = data.toString();
-    console.log(s.toString());
+    // console.log(s.toString());
     return binb2hex(hasing(str2binb(s), s.length * chrsz));
 }
-
 export {gethash};
 // console.log(output_hash);
 // document.getElementById('output').innerHTML = output_hash;
